@@ -7,11 +7,32 @@ public class opSwitch{
         System.out.println("enter the value of b");
         int b=sc.nextInt();
         System.out.println("enter the value of c\n1 for addition\n2for subtraction\n3for division\n4for multiplication\n5for reminder");
-        int c=sc.nextInt();
-        Switch(c){
-            case1:{
-                
-            }
+        int num=sc.nextInt();
+        Switch (num) {
+            case 1:
+                System.out.println("ans is "+(a+b));
+            
+            break;
+            case 2:
+                System.out.println("ans is "+(a-b));
+            
+            break;
+            case 3:
+                System.out.println("ans is "+(a/b));
+            
+            break;
+            case 4:
+                System.out.println("ans is "+(a*b));
+            
+            break;
+            case 5:
+                System.out.println("ans is "+(a%b));
+            break;
+            default:
+            System.out.println("not valid");
+            break;
         }
-    }
+        }
 }
+        
+        
