@@ -9,7 +9,7 @@ public class opSwitch{
         System.out.println("enter the value of c\n1 for addition\n2for subtraction\n3for division\n4for multiplication\n5for reminder");
         int c=sc.nextInt();
         Switch(c){
-            case1:{
+            case 1:{
                 
             }
         }
