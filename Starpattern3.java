@@ -10,5 +10,5 @@ public class Starpattern3{
             System.out.println("");
         }
           
-    }
+    } 
 }
