@@ -13,7 +13,7 @@ public class Kdiamond{
             for(int k=a;k<5;k++){
                 System.out.print("*");
             }
-                 System.out.println("");
+            System.out.println("");
         }
         for(int a=1;a<5;a++){
              for(int k=0;k<=a;k++){
@@ -28,7 +28,7 @@ public class Kdiamond{
             for(int k=0;k<=a;k++){
                 System.out.print("*");
             }
-                System.out.println("");
+            System.out.println("");
         }
     }
 } 
