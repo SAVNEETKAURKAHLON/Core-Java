@@ -6,15 +6,17 @@ public class DoubleArray{
         System.out.println("enter the size of array");
         int size=sc.nextInt();
         a=new int[size];
-        for(int i=0;i<size;i++){
-            if(i>0){
+        int b[]=new int[size];
+        for(int i=0;i<size;i+=2){
             System.out.println("enter the value of "+i);
              a[i]=sc.nextInt();
-             
-                int n=i*2;
-            System.out.println("enter the value of "+n);
+             b[i]=a[i];
+             b[i+1]=a[i]*2;
 
-            }
+        }
+        for(int i=0;i<(size);i++){
+            System.out.println("new array "+i+ " " +b[i]);
+
         }
     }
 }
