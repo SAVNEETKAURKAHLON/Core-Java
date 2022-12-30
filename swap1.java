@@ -5,7 +5,8 @@ public class swap1{
         int b=5;
         int c=b;
         b=a;
-        System.out.println("a is "+c);
+        a=c;
+        System.out.println("a is "+a);
         System.out.println("b is "+b);
     }
 }
