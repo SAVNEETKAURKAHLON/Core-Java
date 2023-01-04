@@ -31,5 +31,5 @@ public class Multiarray {
             }
             System.out.println();
         }
-    }
+    } 
 }
