@@ -37,8 +37,6 @@ public class AdditionArray {
         for(int i=0;i<column;i++){
             for(int j=0;j<row;j++){
                 c[i][j]=a[i][j]+b[i][j];
-        // System.out.println("sum is "+c[i][j]);
-
             }
         }
         System.out.println("value of array a");

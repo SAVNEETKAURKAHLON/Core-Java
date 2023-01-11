@@ -7,14 +7,14 @@ public class SearchingArray{
         int size=sc.nextInt();
         a=new int[size];
         for(int i=0;i<size;i++){
-            System.out.println("enter the value at "+a[i]);
-            a[i]=sc.nextInt();
+            System.out.println("enter the value at "+i);
+            b[i]=sc.nextInt();
         }
-    //    for(int i=0;i<size;i++){
-    //     System.out.println("enter");
-    //     int b=a[i];
-    //        b=sc.nextInt();
-        // System.out.println(+a[i]);
-    //    }
+        for(int j=0;j<size;j++){
+            if(int a==b[i]){
+            System.out.println("the value is at "+i);
+            }
+        }
+        
     }
 }
