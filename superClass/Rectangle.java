@@ -7,10 +7,10 @@ public class Rectangle {
         this.length=length;
         this.breadth=breadth;
     }
-    public void area(int length,int breadth){
+    public void area(){
        System.out.println("area of rectangle is "+(length*breadth)); 
     }
-    public void perimeter(int length,int breadth){
+    public void perimeter(){
         System.out.println("area of rectangle is "+((2*length)+2*breadth)); 
      }
 }
