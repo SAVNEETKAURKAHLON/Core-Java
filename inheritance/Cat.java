@@ -1,4 +1,3 @@
-package inheritance;
 
 public class Cat extends AnimalClass{
     public static void main(String args[]){

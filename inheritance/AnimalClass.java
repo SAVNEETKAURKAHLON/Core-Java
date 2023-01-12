@@ -1,4 +1,3 @@
-package inheritance;
 
 public class AnimalClass {
      AnimalClass(){
