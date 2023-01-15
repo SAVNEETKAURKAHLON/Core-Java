@@ -3,5 +3,6 @@ public class areaCircle{
         double a=3.14;
         double b=8;
         System.out.print("area of circle is "+(a*b*b));
+        
     }
 }

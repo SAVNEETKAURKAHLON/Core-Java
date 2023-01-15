@@ -1,4 +1,4 @@
-public class ExpImp{
+public class ExpImp extends Factorial {
     public static void main(String args[]){
         int a=10;
         double b=2;
@@ -9,5 +9,10 @@ public class ExpImp{
         System.out.println("sum is "+e);
         double f=(double)(a+b+c);
         System.out.println("sum is "+f);
+        ExmpImp exmImp =new ExmpImp();
+        empImp.a=2;
+        exmpImp.b=3;
+        System.out.println(a*b);
+        
     }
 }
