@@ -1,9 +1,15 @@
 package factorial;
 public class Factorial{
-    public Factorial(){
+
+     Factorial(int a){
       System.out.println("factorial is ");
+      int b=1;
+      for(int i=a;i>0;i--){
+        b=b*i;
+      }
+      System.out.println(b);
     }
-    public starPattern(){
+    public void starPattern(){
          for(int i=0;i<6;i++){
              for(int j=0;j<i;j++){
                  System.out.print("*");
@@ -17,5 +23,9 @@ public class Factorial{
             System.out.println("");
 
         }
+    }
+    public static void main(String args[]){
+        Factorial factorial=new Factorial(4);
+        factorial.starPattern();
     }
 }
