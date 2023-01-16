@@ -1,4 +1,4 @@
-package superClass;
+package superclass;
 
 public class Rectangle {
     int length;

@@ -1,4 +1,4 @@
-package superClass;
+package superclass;
 
 public class SquareArea extends Rectangle {
     int s;
