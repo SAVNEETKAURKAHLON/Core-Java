@@ -1,4 +1,4 @@
-package superclass;
+package superClass;
 
 public class SquareArea extends Rectangle {
     int s;
@@ -7,10 +7,10 @@ public class SquareArea extends Rectangle {
     }
     public static void main(String args[]){
         SquareArea squareArea=new SquareArea(10);
-        squareArea.area();
-        squareArea.perimeter();
+        squareArea.area("square");
+        squareArea.perimeter("square");
         Rectangle rectangle=new Rectangle(10,2);
-        rectangle.area();
-        rectangle.perimeter();
+        rectangle.area("rectangle");
+        rectangle.perimeter("rectangle");
     }
 }

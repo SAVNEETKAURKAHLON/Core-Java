@@ -1,4 +1,4 @@
-package superclass;
+package superClass;
 
 public class Rectangle {
     int length;
@@ -7,10 +7,10 @@ public class Rectangle {
         this.length=length;
         this.breadth=breadth;
     }
-    public void area(){
-       System.out.println("area of rectangle is "+(length*breadth)); 
+    public void area(String objectType){
+       System.out.println("area of "+objectType+" is "+(length*breadth)); 
     }
-    public void perimeter(){
-        System.out.println("area of rectangle is "+((2*length)+2*breadth)); 
+    public void perimeter(String objectType){
+        System.out.println("perimeter of rectangle is "+((2*length)+2*breadth)); 
      }
 }
