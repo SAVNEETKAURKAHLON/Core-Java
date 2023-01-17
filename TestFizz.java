@@ -4,13 +4,14 @@ public class TestFizz{
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number");
         int a=sc.nextInt();
-        if((a/3)==1){
+        System.out.print("a%3 "+(a%3));
+        if((a%3)==0){
             System.out.println("fizz");
         }
-        else if((a/5)==1){
+        else if((a%5)==0){
             System.out.println("buzz");
         }
-        else if((a/3)==1&&(a/5)==1){
+        else if((a%3)==0&&(a%5)==0){
             System.out.println("fizzbuzz");
         }
         else{
