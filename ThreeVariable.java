@@ -1,4 +1,4 @@
-public class variable{
+public class ThreeVariable{
     public static void main(String args[]){
         System.out.println("helo");
         int a=5;
