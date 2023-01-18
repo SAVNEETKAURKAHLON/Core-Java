@@ -4,7 +4,6 @@ public class TestFizz{
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number");
         int a=sc.nextInt();
-        System.out.print("a%3 "+(a%3));
         if((a%3)==0){
             System.out.println("fizz");
         }
