@@ -1,6 +1,6 @@
 package Collections;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class ArrayListCollection {
     public static void main(String args[]) {
@@ -20,5 +20,17 @@ public class ArrayListCollection {
             System.out.print("S class rollno "+sClass.rollno);
             System.out.println(" S class name "+sClass.name);
         }
+
+        List<Integer> intergersList = new ArrayList<Integer>(); // not thread safe
+        List<Integer> vectorList = new Vector<>(0); // thread safe
+       // ArrayList<Integer> intergerArrayList = new List<Integer>();
+        //scope resolution
+       studentlist.forEach(System.out::println);
+
+       for(StudentClass student : studentlist){
+         System.out.println("S class rollno "+student.rollno);
+
+       }
+       
     }
 }
