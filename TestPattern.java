@@ -35,9 +35,9 @@ public class TestPattern{
             }
        System.out.println("");
        }  
-       System.out.print("");
-        }
-       for(int o=0;o<=0;o++){
+    //    System.out.print("");
+        // }
+    //    for(int o=0;o<=0;o++){
         for(int a=0;a<=2;a++){
          for(int f=2;f>a;f--){
             System.out.print(" ");
