@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class arithmetic{
     public static void main(String args[]){
         System.out.println("helo");
@@ -9,5 +11,9 @@ public class arithmetic{
         System.out.println("division "+((a+b)/c));
         System.out.println("quotient "+(c%d));
         System.out.println("multiplication "+((c%d)*d));
+
+        Random random = new Random();
+        int ran  = random.nextInt(4 - 0) + 0;
+        System.out.print(" ran "+ran);
     }
 }
