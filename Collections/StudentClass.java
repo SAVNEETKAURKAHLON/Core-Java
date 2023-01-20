@@ -1,4 +1,4 @@
-package Collections;
+// package Collections;
 
 public class StudentClass {
     public int rollno;
