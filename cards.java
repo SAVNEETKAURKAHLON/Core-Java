@@ -1,18 +1,37 @@
-public class cards {
+import java.util.Random;
+
+public class Cards {
     private String suit[]={"s","d","c","h"};
-    int value[]={1,2,3,4,5,6,7,8,9,10,11,12,13};
-    int ran;
-    int val;
-    int getSuit(int a){
-        return Suit[];
+    String selectedCard;
+   
+    String getSuit(){
+        return selectedCard;
     }
-    int setSuit(int a){
-        this.ran=a;
+
+    void setCard(){
+        selectedCard = selectCard();
     }
-    int getValue(int a){
-        return value[];
+
+
+    String selectCard(){
+        String card;
+        Random random = new Random();
+        int randomSuit = random.nextInt(4 + 1 - 0) + 0;
+
+        card = suit[randomSuit];
+
+        int randomNumber = random.nextInt(13 + 1 - 1) + 1;
+        card = card+randomNumber;
+        return card;
     }
-    int setValue(int b){
-        this.val=b;
+
+    public static void main(String args[]){
+        Cards card = new Cards();
+        card.setCard();
+        System.out.println(" in card "+card.getSuit());
+
+        Cards card2 = new Cards();
+        card2.setCard();
+        System.out.println(" in card 2 "+card2.getSuit());
     }
 }
